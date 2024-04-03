@@ -1,6 +1,6 @@
 .title,
 table.list-info th {
-    color: #78953A;
+    color: rgb(0,27,52);
 }
 
 img.photo:hover {
@@ -8,29 +8,29 @@ img.photo:hover {
 }
 
 #navigation-bar {
-    border-bottom-color: #78953A;
+    border-bottom-color: rgb(0,27,52);
 }
 
 .top-bar {
-    background: url(../images/common/paid-member-bar-02.gif) repeat-x;
+    background: linear-gradient(to right,#0D112D 50%,#ffffff);
 }
 
 .top-bar .links a,
 .top-bar .links .link {
-    color: #517222;
+    color: rgb(0,27,52);
 }
 
 .top-bar .links a:hover,
 .top-bar .links .link:hover {
-    color: #FF6600;
+    color: #2C609C;
 }
 
 .te-logo {
-    background: url(../images/common/paid-member-bar-01.gif) no-repeat;
+    /* background: url(../images/common/paid-member-bar-01.gif) no-repeat; */
 }
 
 .member-logo {
-    background: url(../images/common/paid-seller-member-logo.gif) no-repeat;
+    background: url(../images/common/paid-seller-member-logo.jpg)  center center/cover;
 }
 
 .theme-top {
@@ -50,7 +50,7 @@ img.photo:hover {
 }
 
 .theme-color {
-    color: #78953A;
+    color: rgb(0,27,52);
 }
 
 .theme-border {
@@ -62,7 +62,7 @@ img.photo:hover {
 }
 
 .service-navigator {
-    background: url(../images/common/paid-member-menu-bg.gif);
+    
 }
 
 .service-navigator ul li.main {
@@ -81,7 +81,7 @@ img.photo:hover {
 
 .service-navigator ul li.active a {
     font-weight: bold;
-    color: #78953A;
+    color: rgb(0,27,52);
 }
 
 .service-navigator .sub-services {
@@ -105,7 +105,7 @@ img.photo:hover {
 }
 
 div.section {
-    color: #517222;
+    color: rgb(0,27,52);
 }
 
 #listing #list-content,
@@ -122,7 +122,7 @@ div.section {
 /* styles dedicated for pad menu */
 
 #navigation-menu .service-navigator {
-    border-top: solid 1px #517222;
+    border-top: solid 1px rgb(0,27,52);
 }
 
 #navigation-menu .service-navigator,
@@ -130,7 +130,7 @@ div.section {
 .news-block .head,
 .contact-info-block .head,
 .feature-product-block .head {
-    border-bottom: solid 1px #517222;
+    border-bottom: solid 1px rgb(0,27,52);
 }
 
 .service-navigator ul li.main.active a,
@@ -142,7 +142,7 @@ div.section {
 .news-block .head,
 .contact-info-block .head,
 .feature-product-block .head {
-    background: #517222 !important;
+    background: rgb(0,27,52) !important;
 }
 
 #prod-cata,
@@ -151,14 +151,14 @@ div.section {
 }
 
 #prod-cata {
-    border: 1px solid #517222 !important;
+    border: 1px solid rgb(0,27,52) !important;
 }
 
 .bodr-grey,
 .bodr-grey-bot,
 .details-block .desc,
 #listing #list-content {
-    border-color: #517222;
+    border-color: rgb(0,27,52);
 }
 
 #side-block {
@@ -166,8 +166,8 @@ div.section {
 }
 
 .side-widget .widget-head {
-    border-color: #517222;
-    color: #517222;
+    border-color: rgb(0,27,52);
+    color: rgb(0,27,52);
 }
 
 ul.prod-lines li+li {
@@ -179,5 +179,5 @@ ul.prod-lines a {
 }
 
 ul.prod-lines a:hover {
-    background: #517222
+    background: rgb(0,27,52)
 }

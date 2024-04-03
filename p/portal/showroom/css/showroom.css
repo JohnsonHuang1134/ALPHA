@@ -1,10 +1,10 @@
 body {
-    background: #fff
+    background: #fff;
 }
 
 .line-bar,
 .ct-area {
-    background: #fff
+    background: #fff;
 }
 
 body,
@@ -12,7 +12,7 @@ div,
 p,
 li {
     font-family: raleway, verdana;
-    letter-spacing: 0.5px
+    letter-spacing: 0.5px;
 }
 
 .b11,
@@ -25,36 +25,36 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600 !important
+    font-weight: 600 !important;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
-    width: 100%
+    width: 100%;
 }
 
 li {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 img.photo {
     border: solid 5px #fff;
     border-radius: 2px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 b,
 strong,
 .strong {
-    font-weight: 600
+    font-weight: 600;
 }
 
 .title {
     float: left;
     font-weight: bold;
-    text-align: left
+    text-align: left;
 }
 
 .info {
@@ -387,7 +387,9 @@ ul.products span {
 .line-bar {
     flex: 1;
     padding-top: 5px;
-    height: 106px
+    height: 106px;
+    background: rgb(0 ,18 ,29);
+    color:#fff;
 }
 
 .line-bar td {
@@ -1486,7 +1488,7 @@ ul.products span {
     .has-side #side-block {
         display: none
     }
-    .has-side #{padding-left:0} .top-bar,
+    .has-side{padding-left:0} .top-bar,
     #content-block {
         width: 99%
     }
@@ -1523,8 +1525,7 @@ ul.products span {
     .photo-frame .photo-holder,
     .photo-frame .photo-desc,
     .article-block .body #list-content {
-        ;
-        float: none !important
+        float: none !important;
     }
     .company-info-block ul li.info-long {
         width: 73%
