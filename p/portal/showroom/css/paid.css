@@ -12,17 +12,17 @@ img.photo:hover {
 }
 
 .top-bar {
-    background: linear-gradient(to right,#0D112D 50%,#ffffff);
+    background: linear-gradient(to right, black 16%, #984c0b 41%);
 }
 
 .top-bar .links a,
 .top-bar .links .link {
-    color: rgb(0,27,52);
+    color: #fff;
 }
 
 .top-bar .links a:hover,
 .top-bar .links .link:hover {
-    color: #2C609C;
+    color: #000;
 }
 
 .te-logo {
@@ -112,7 +112,7 @@ div.section {
 .details-block .body,
 .details-block .section label,
 .feature-product-block .body {
-    background: #dce2d2
+    background: #e2dbd2
 }
 
 #list-content #photo-holder {
@@ -142,7 +142,7 @@ div.section {
 .news-block .head,
 .contact-info-block .head,
 .feature-product-block .head {
-    background: rgb(0,27,52) !important;
+    background: #984c0b !important;
 }
 
 #prod-cata,
@@ -162,12 +162,12 @@ div.section {
 }
 
 #side-block {
-    background: #edf0e8;
+    background: #e2dbd2;
 }
 
 .side-widget .widget-head {
-    border-color: rgb(0,27,52);
-    color: rgb(0,27,52);
+    border-color: #984c0b;
+    color: #984c0b;
 }
 
 ul.prod-lines li+li {
@@ -175,9 +175,9 @@ ul.prod-lines li+li {
 }
 
 ul.prod-lines a {
-    color: #738e4e
+    color: #9f6a3d;
 }
 
 ul.prod-lines a:hover {
-    background: rgb(0,27,52)
+    background: #984c0b;
 }

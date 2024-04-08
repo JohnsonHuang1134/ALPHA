@@ -388,7 +388,7 @@ ul.products span {
     flex: 1;
     padding-top: 5px;
     height: 106px;
-    background: rgb(0 ,18 ,29);
+    background: linear-gradient(to right, black, #984c0b 30%);
     color:#fff;
 }
 
@@ -1353,11 +1353,11 @@ ul.products span {
 .service-navigator ul li a,
 .service-navigator .common-services #serv-contact-us a,
 .service-navigator .common-services #serv-corp-news a {
-    color: #000000
+    color: #9f6a3d;
 }
 
 .service-navigator ul li a:hover {
-    color: #FF6600
+    color: #984c0b
 }
 
 .service-navigator .common-services li.main {

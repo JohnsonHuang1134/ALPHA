@@ -1750,15 +1750,15 @@ div[id^=main-row-] .one-col {
 }
 
 .box-button.box-button-light-inv {
-    background: #ff944c;
-    border-color: #ff944c;
+    background: #9f6a3d;
+    border-color: #9f6a3d;
     color: #ffffff;
 }
 
 .box-button.box-button-light-inv:hover,
 .box-button.box-button-light-inv:focus {
-    background: #ff7519;
-    border-color: #ff7519;
+    background: #984c0b;
+    border-color: #984c0b;
 }
 
 .side-col.left .portlet .box-button:hover,
