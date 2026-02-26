@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="20" cy="20" r="20" fill="#BEBEBE" opacity=".8"/>
+        <path fill="#FFF" fill-rule="nonzero" d="M11.082 24.474l8.915-8.944 8.92 8.95a.63.63 0 0 0 .897 0 .638.638 0 0 0 0-.9l-9.358-9.388a.709.709 0 0 0-.236-.15.635.635 0 0 0-.676.144l-9.358 9.389a.638.638 0 0 0 0 .9.633.633 0 0 0 .896 0z"/>
+    </g>
+</svg>

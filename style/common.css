@@ -1,0 +1,9 @@
+.main_txt_color{
+    color: #75a83e;
+}
+.word_bold{
+    font-weight: bold;
+}
+.service-detail-page .banner-section:before{
+    background-image: url(../images/bg-overlay.png);
+}
