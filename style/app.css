@@ -4381,13 +4381,14 @@ ul.breadcrumb li:nth-child(3) a {
 }
 
 .global-contact-form .contact-bg {
-    background-image: url(../images/global-icon/bg-contact.svg);
+    background-image: url(../images/bg-contact.svg);
     height: 100%;
     left: 0;
     opacity: .3;
     position: absolute;
     top: 0;
-    width: 100%
+    width: 100%;
+    z-index: 0;
 }
 
 .global-contact-form .content-box {
