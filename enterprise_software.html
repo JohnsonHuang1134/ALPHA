@@ -1890,7 +1890,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </section>
 
-
+        <section class="global-contact-form">
+            <div class="contact-bg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <div class="content-box">
+                            <h2 class="content-box__h2-title after"><span class="main_txt_color word_bold">我們致力於在預算內提供高品質的服務</span></h2>
+                            <div class="content-box__description">立即聯絡我們，拓展您的業務！</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 mt-5 mt-md-0 form-box">
+                        <!-- 隱藏加上--hide -->
+                        <div class="contact_form" id="contact_form">
+                            <!-- 錯誤訊息加上--error -->
+                            <div class="contact_input_box">
+                                <input type="text" class="contact_input" placeholder="姓名*" name="name" required>
+                                <i class="fa-solid fa-exclamation error_icon"></i>
+                                <span class="error_notice">這是必填項。</span>
+                            </div>
+                            <!-- 錯誤訊息加上--error -->
+                            <div class="contact_input_box">
+                                <input type="text" class="contact_input" placeholder="商務電話*" name="phone" required>
+                                <i class="fa-solid fa-exclamation error_icon"></i>
+                                <span class="error_notice">這是必填項。</span>
+                            </div>
+                            <!-- 錯誤訊息加上--error -->
+                            <div class="contact_input_box">
+                                <input type="text" class="contact_input" placeholder="公司名稱*" name="company" required>
+                                <i class="fa-solid fa-exclamation error_icon"></i>
+                                <span class="error_notice">這是必填項。</span>
+                            </div>
+                            <!-- 錯誤訊息加上--error -->
+                            <div class="contact_input_box">
+                                <input type="email" class="contact_input" placeholder="電子郵件*" name="email" required>
+                                <i class="fa-solid fa-exclamation error_icon"></i>
+                                <span class="error_notice">這是必填項。</span>
+                            </div>
+                            <!-- 錯誤訊息加上--error -->
+                            <div class="contact_input_box">
+                                <textarea  class="contact_textarea" placeholder="輸入您的資訊*" name="message" required></textarea>
+                                <span class="error_notice">這是必填項。</span>
+                            </div>
+                            <button class="contact_submit_btn" id="submit_btn">發送訊息</button>
+                            <!-- 顯示加上--show -->
+                            <span class="error_notice" id="error_notice">請在提交此表格前更正錯誤。</span>
+                        </div>
+                        <!-- 顯示加上--show -->
+                        <div class="thank_container" id="thank_container">
+                            <h2 class="thank_title">謝謝</h2>
+                            <span class="thank_txt">感謝您與我們聯繫。我們的代表將盡快與您聯繫。</span>
+                            <img src="./images/image_004.jpg" class="thank_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer id="footer">
         <div class="container main-footer">
@@ -1977,12 +2032,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <noscript class="ninja-forms-noscript-message">
-	Notice: JavaScript is required for this content.</noscript>
-                    <!-- That data is being printed as a workaround to page builders reordering the order of the scripts loaded-->
+                    <!-- 隱藏加上--hide -->
+                    <div class="subscribe_box" id="subscribeBox">
+                        <h3 class="sub_title">訂閱我們</h3>
+                        <span class="sub_txt">註冊即可將最新更新和精彩優惠直接發送到您的收件匣。</span>
+                        <!-- 錯誤訊息加上--error -->
+                        <div class="sub_input_box" id="inputBox">
+                            <input type="email" class="sub_input" id="emailIpt" placeholder="輸入您的電子郵件">
+                            <button class="sub_btn" id="sub_btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <span class="error_notice">請輸入有效的電子郵件地址！</span>
+                        </div>
+                    </div>
+                    <!-- 顯示加上--show -->
+                    <div class="form_submitted" id="sendFully">
+                        <span class="submitted_txt">Form submitted successfully</span>
+                        <span class="submitted_txt">A confirmation email was sent to <br> service＠alpha76123.com.</span>
+                        <span class="submitted_txt">表單提交成功。</span>
+                        <span class="submitted_txt">確認電子郵件以發送至service＠alpha76123.com。</span>
+                    </div>
 
-                    <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js">
-                    </script>
                     <div class="contact-box">
                         <h3 class="heading">聯絡我們</h3>
 
@@ -2046,6 +2116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img class="img-back-2-top" width="40" height="40" alt="Back2Top" title="Back2Top" src="./wp-content/themes/techtiq/assets/images/footer/back-2-top.svg">
     </div>
 
+    <script src="js/send.js"></script>
     <script type="speculationrules">
         {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/techtiq\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch,
         .no-prefetch a"}}]},"eagerness":"conservative"}]}
