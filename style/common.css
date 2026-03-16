@@ -40,6 +40,15 @@
     border-color: #919191;
     color: #919191;
 }
+.contact_form .error_icon{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    height: 48px;
+    width: 50px;
+    display: none;
+}
 .--error .contact_input{
     border-color: #e80000;
 }
@@ -48,14 +57,9 @@
     border-radius: 8px;
     color: #fff;
     font-size: 20px;
-    position: absolute;
-    top: 1px;
-    right: 1px;
-    bottom: 1px;
-    height: 48px;
-    width: 50px;
     line-height: 50px;
     text-align: center;
+    display: block;
 }
 .error_notice{
     display: none;
@@ -89,6 +93,9 @@
     background: #fff;
     border-color: #919191;
     color: #919191;
+}
+.--error .contact_textarea{
+    border-color: #e80000;
 }
 .contact_select_file{
     position: relative;

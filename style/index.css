@@ -790,7 +790,6 @@
 
 #front-page .features-section .features-media-box .video-container {
     border-radius: 12px;
-    cursor: pointer;
     height: auto;
     overflow: hidden;
     position: relative;
